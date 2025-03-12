@@ -63,7 +63,7 @@ ALTER MATERIALIZED VIEW mv1 rename mv2;
 
 修改物化视图特有的 property
 
-例如修改 mv1 的 grace_period 为 3000ms
+例如修改 mv1 的 grace_period 为 3000s
 
 ```sql
 ALTER MATERIALIZED VIEW mv1 set("grace_period"="3000");
